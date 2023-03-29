@@ -7029,7 +7029,7 @@
     "ruleSearchCoverUrl": "",
     "ruleSearchKind": "",
     "ruleSearchLastChapter": "",
-    "ruleSearchList": "id.main@tag.tr!0",
+    "ruleSearchList": "class.content@tag.dl@tag.a.0@title",
     "ruleSearchName": "tag.a@text",
     "ruleSearchNoteUrl": "tag.tr@tag.a.0@href",
     "ruleSearchUrl": "https://www.13xxs.com/search/?searchtype=all&searchkey=searchkey&act=search|char=gbk",
