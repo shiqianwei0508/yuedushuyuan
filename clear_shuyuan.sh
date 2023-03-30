@@ -19,7 +19,7 @@ sed -i 's/https:\/\///g' https_website.txt
 # 检测http域名
 for i in `cat http_website.txt`
 do
-    nc -zv -w 3 $i 80 > /dev/null 2>&1
+    nc -zv -w 1 $i 80 > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "-------------------$i站点80端口正常，可继续使用-------------------------"
     else
@@ -31,7 +31,7 @@ done
 # 检测https域名
 for i in `cat https_website.txt`
 do
-    nc -zv -w 3 $i 443 > /dev/null 2>&1
+    nc -zv -w 1 $i 443 > /dev/null 2>&1
     if [ $? -eq 0 ]; then
         echo "-------------------$i站点443端口正常，可继续使用-------------------------"
     else
